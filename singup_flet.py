@@ -2,6 +2,7 @@ import flet as ft
 import csv, os, re
 from datetime import datetime
 
+
 # หา path ของโฟลเดอร์ที่ไฟล์ .py นี้อยู่
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CSV_PATH = os.path.join(BASE_DIR, "regis.csv")
